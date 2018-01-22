@@ -1,0 +1,4 @@
+1.npm install
+2.npm install -g hexo
+3.npm install hexo-deployer-git --save
+4.发的文章在_poster里 ，每次记得提交git push
