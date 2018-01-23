@@ -79,3 +79,23 @@ theme: hexo-theme-archer
 deploy: 
   type: git
   repo: https://github.com/SiriusLiDragon/SiriusLiDragon.github.io.git 
+
+# tag
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true

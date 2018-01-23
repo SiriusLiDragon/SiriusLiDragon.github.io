@@ -2,4 +2,5 @@
 2.npm install -g hexo
 3.npm install hexo-deployer-git --save
 4 npm install https://github.com/CodeFalling/hexo-asset-image --save
+6.npm i hexo-generator-json-content --save
 5.发的文章在_poster里 ，每次记得提交git push
