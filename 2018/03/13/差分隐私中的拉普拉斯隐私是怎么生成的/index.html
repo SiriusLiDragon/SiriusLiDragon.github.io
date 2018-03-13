@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <title>
         
-        Hello World · SiriusLi&#39;s Studio
+        差分隐私中的拉普拉斯隐私是怎么生成的 · SiriusLi&#39;s Studio
         
     </title>
     <link rel="icon" href= /assets/favicon.ico>
@@ -72,7 +72,7 @@
                 <a href="/" >依依东望</a>
             </div>
             <div class="post-title">
-                <a href="#" class="post-name">Hello World</a>
+                <a href="#" class="post-name">差分隐私中的拉普拉斯隐私是怎么生成的</a>
             </div>
     </div>
     
@@ -93,7 +93,7 @@
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            Hello World
+            差分隐私中的拉普拉斯隐私是怎么生成的
             <!-- 404 -->
             
         </h1>
@@ -109,10 +109,16 @@
         
             <!-- 文章页标签  -->
             
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-href = 差分隐私>差分隐私</a>
+    
+</div>
+            
             <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "1", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = "/static/api/js/share.js"];</script>
             <div class="post-intro-meta">
                 <span class="post-intro-calander iconfont-archer">&#xe676;</span>
-                <span class="post-intro-time">2018/01/22</span>
+                <span class="post-intro-time">2018/03/13</span>
                 <span id="busuanzi_container_page_pv" class="busuanzi-pv">
                     <span class="iconfont-archer">&#xe604;</span>
                     <span id="busuanzi_value_page_pv"></span>
@@ -195,27 +201,32 @@
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="在ps系统（发布与接收系统）中用到差分隐私去添加噪声"><a href="#在ps系统（发布与接收系统）中用到差分隐私去添加噪声" class="headerlink" title="在ps系统（发布与接收系统）中用到差分隐私去添加噪声"></a>在ps系统（发布与接收系统）中用到差分隐私去添加噪声</h1><p>最近看雾计算的文章中遇到了许多问题，雾计算目前看来只是将之前云计算中的那些问题换了个环境研究了一下。涉及到的还是去重，加密，隐私保护等等。但是由于雾环境大多由许多的计算及存储能力都不强的节点组成，云端是一个整体而且计算与存储能力远远大于雾，所以以前的方案用在雾环境下就不太适用。</p>
+<p>—————————————————————————————————————<br>分割线（前面吐个槽） 这次写的是在ps系统中遇到的在对数据集进行处理时加入的拉普拉斯噪声。</p>
+<ul>
+<li><p>直接上截图吧 公式太难敲。。</p>
+<blockquote>
+<p><img src="/2018/03/13/差分隐私中的拉普拉斯隐私是怎么生成的/123.PNG" alt="tupian"><br><img src="/2018/03/13/差分隐私中的拉普拉斯隐私是怎么生成的/222.PNG" alt="tupian"></p>
+</blockquote>
+</li>
+<li><p>代码实现</p>
+<blockquote>
+<p> <img src="/2018/03/13/差分隐私中的拉普拉斯隐私是怎么生成的/333.PNG" alt="tupian"></p>
+</blockquote>
+</li>
+</ul>
 
     </article>
     <!-- 前后页  -->
     <ul class="post-pager">
         
-            <li class="next">
-                <a href= "/2018/01/22/第一篇文章/" title= 第一篇文章 >
-                    <span>Next Post</span>
-                    <span>第一篇文章</span>
+        
+            <li class="previous">
+                <a href= "/2018/01/23/如何编写md文件/" title= 如何编写md文件 >
+                    <span>Previous Post</span>
+                    <span>如何编写md文件</span>
                 </a>
             </li>
-        
         
     </ul>
     <!-- 评论插件 -->
@@ -281,7 +292,7 @@
         <div class="toc-catalog">
             <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
         </div>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#在ps系统（发布与接收系统）中用到差分隐私去添加噪声"><span class="toc-number">1.</span> <span class="toc-text">在ps系统（发布与接收系统）中用到差分隐私去添加噪声</span></a></li></ol>
     </div>
     
     <div class="back-top">&#xe639;</div>
